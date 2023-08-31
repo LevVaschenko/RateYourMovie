@@ -28,7 +28,8 @@
 }
 
 .movie-results {
-    margin-top: 15px;
+    margin-top: 25px;
+    width: 550px;
 }
 
 .movie-poster {
@@ -36,10 +37,15 @@
 }
 
 .movie-poster img {
-    width: 120px;
+    width: 165px;
     margin-right: 15px;
 }
 
 .movie-item {
     margin-bottom: 15px;
+}
+
+.movie-data {
+    display: flex;
+    flex-direction: column;
 }
